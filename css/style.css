@@ -10,7 +10,7 @@ body{
     background: #121212;
 }
 .cont{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     padding-top: 20px;
 
@@ -176,6 +176,7 @@ ul li a:hover {
     justify-content: center;
     padding-bottom: 100px;
     gap: 20px  ;
+    flex-wrap: wrap;
 }
 
 .social-text{
@@ -338,6 +339,7 @@ height: 237px;
     justify-content: center;
     gap: 180px;
     padding: 24px 0 ;
+    flex-wrap: wrap;
   }
   .card-menu h3 {
   font-family: Mulish;
@@ -349,7 +351,6 @@ height: 237px;
   text-align: center;
   color: #FFFFFF;
   opacity: 60%;
-
   }
   h3:hover{
     color: #fff;
@@ -370,4 +371,57 @@ height: 237px;
     letter-spacing: 0%;
     color: #74E2C7;
   }
+
+  .cardchashi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px ;
+    margin-bottom: 21px;
+    flex-wrap: wrap;
+  }
+  .cardBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 453px;
+    height: 224px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 1px;
+    opacity: 60%;
+    border: 1px solid #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 60px;
+
+  }
+  .cardBlock:hover{
+    border: 1px solid #74E2C7;
+  }
+  .blockTitle h1{
+    font-family: Mulish;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 91.54px;
+    line-height: 70%;
+    letter-spacing: 1%; 
+    color: #fff;
+    opacity: 60%;
+  }
+  .blockTitle h1:hover{
+    opacity: 1;
+    color: #74E2C7;
+  }
+  #h1{
+    font-family: Mulish;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45.3px;
+    line-height: 100%;
+    letter-spacing: 1%;
+  }
+ 
 /* sectionmenu  */
